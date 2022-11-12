@@ -5,7 +5,7 @@ with open("README.rst", "r",encoding = "UTF-8") as fh:
 
 setuptools.setup(
     name="MHCInc",
-    version="0.0.5",
+    version="0.0.6",
     author="Mhc-inc",
     author_email="Wf6350177@163.com",
     description="update from Swift-module-copiseded",
@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"MHCInc": "MHCInc"},
+    package_dir={"": "MHCInc"},
     packages=setuptools.find_packages(where="MHCInc"),
     python_requires=">=3.9",
 )

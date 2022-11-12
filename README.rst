@@ -1,5 +1,6 @@
 #Swift Apple
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Mhc-Inc/MHCInc) ![GitHub License](https://img.shields.io/github/license/Mhc-Inc/MHCInc) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mhc-Inc/MHCInc?include_prereleases) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Mhc-Inc/MHCInc.svg)
 update Swift-Module-Copiseded
 
 Installation
@@ -9,7 +10,7 @@ Installation
 
    ```shell```
 
-      $ python3 -m pip install swift-module-copiseded --upgrade
+      $ python3 -m pip install MHCInc --upgrade
 
   to update.
 
@@ -18,7 +19,7 @@ Installation
 
   ```shell```
 
-      $ python3 -m pip install swift-module-copiseded
+      $ python3 -m pip install MHCInc
 
  to get it.
 
@@ -30,13 +31,13 @@ Installation
 
    ```shell```
       
-       $ from swift_apple import GameName
+       $ from MHCInc import GameName
 or:
 
    ```shell```
       
-       import swift_apple
-       swift_apple.module.GameName
+       import MHCInc
+       MHCInc.module.GameName
 
 GameName:
 
@@ -52,7 +53,7 @@ in python
         $ GameName is a module
 
 
-and the swift_apple has
+and the MHCInc has
 
    ```shell```
 
@@ -62,14 +63,14 @@ and the swift_apple has
 
   ```shell```
 
-      import swift_apple
-      swift_apple.module.main()
+      import MHCInc
+      MHCInc.module.main()
 
 Main() is used to describe copyright. You can also use
 
    ```shell```
 
-      from swift_apple import copyright
+      from MHCInc import copyright
       copyright.copyright_Swift()
       
 Tips
@@ -77,5 +78,3 @@ Tips
 
 -  You can use ⬅️⬆️➡️⬇️ keys or '1234' keys to remove the blocks on the
    caterpillar2's screen
-
--  Screenshot will be saved to ' ~/Desktop/Swift-Apple/screenshots '
