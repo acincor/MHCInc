@@ -5,15 +5,15 @@ with open("README.rst", "r",encoding = "UTF-8") as fh:
 
 setuptools.setup(
     name="MHCInc",
-    version="0.1.5",
+    version="0.1.6",
     author="Mhc-inc",
     author_email="Wf6350177@163.com",
-    description="update from Swift-module-copiseded",
+    description="修复已知错误",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://pypi.org/project/MHCInc/",
     project_urls={
-        "Bug Tracker": "https://github.com/Mhc-inc/swift-module-copiseded-new-/issues",
+        "Bug Tracker": "https://github.com/Mhc-inc/MHCInc/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
