@@ -5,7 +5,7 @@ with open("README.rst", "r",encoding = "UTF-8") as fh:
 
 setuptools.setup(
     name="MHCInc",
-    version="0.0.7",
+    version="0.1.4",
     author="Mhc-inc",
     author_email="Wf6350177@163.com",
     description="update from Swift-module-copiseded",
