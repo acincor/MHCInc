@@ -78,3 +78,5 @@ Tips
 
 -  You can use ⬅️⬆️➡️⬇️ keys or '1234' keys to remove the blocks on the
    caterpillar2's screen
+
+- MHCInc文件夹将会直接在本地创建（倒入模块时），eggCatcherPerfect(),PHYSICAL_CONDITION_APPLET(),matchmaker(),screen_pet()将会用到里面的两个文件
