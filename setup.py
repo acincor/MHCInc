@@ -5,10 +5,10 @@ with open("README.rst", "r",encoding = "UTF-8") as fh:
 
 setuptools.setup(
     name="MHCInc",
-    version="0.1.8",
+    version="0.1.9",
     author="Mhc-inc",
     author_email="Wf6350177@163.com",
-    description="优化代码：在本地直接创建文件，将部分产品找不到文件的问题优化。",
+    description="改进漏洞：将使用模块功能时找不到文件优化",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://pypi.org/project/MHCInc/",

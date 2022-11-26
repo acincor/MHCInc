@@ -11,7 +11,7 @@ c.pack()
 c.create_text(50,50,anchor='nw',fill='orange',\
               font='Arial 28 bold underline',text='Welcome to the physical condition applet')
 mixer.init()
-beep=mixer.Sound('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac')
+beep=mixer.Sound('MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac')
 beep.play()
 time.sleep(5)
 

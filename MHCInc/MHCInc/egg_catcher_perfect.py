@@ -5,7 +5,7 @@ from pygame import mixer
 import time
 
 mixer.init()
-beep=mixer.Sound('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac')
+beep=mixer.Sound('MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac')
 beep.play()
 time.sleep(5)
 
