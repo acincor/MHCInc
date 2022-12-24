@@ -26,11 +26,41 @@ def 四舍五入(n):
     if last <= 4:
         return string
     else:
-        array[len(array)-1] = "0"
-        second = int(array[len(array)-2])
-        second += 1
-        array[len(array)-2] = str(second)
-        return "".join(array)
+        if n < 10:
+            return "10"
+        else:
+            array[len(array)-1] = "0"
+            second = int(array[len(array)-2])
+            second += 1
+            array[len(array)-2] = str(second)
+            return "".join(array)
+def 猜出你的年龄():
+    print("在1~10内选一个数：")
+    print("下面，将你生日转换为下面格式:\n\"你的生日几月几号+0\"，\n如4月4日，就是\"440\"")
+    print("OK，接下来，将这个数乘2加5，\n然后将结果乘50，\n回答，这个数是什么")
+    answer = input("回答我：\n")
+    number = int(answer)
+    numList = [1,2,3,4,5,6,7,8,9,10]
+    for i in numList:
+        if not answer.isalnum or int(answer) != (i * 2 + 5) * 50:
+            print('不能输入范围外的内容')
+            Error = {"错误":"用户输入范围外内容"}
+            return [None,None,{"Error":Error}]
+            break
+        else:
+            number += 1772
+            answer = input("输入你出生的年份\n别以为前面在装虚弄假\n因为我会猜出你猜的数加年龄：\n")
+            if len(answer) > 4 or len(answer) < 4:
+                print('不能输入范围外的数')
+            else:
+                number -= int(answer)
+                List = list(str(number))
+                return [List[0],List[1]+List[2],{"Error":None}]
+#result = 猜出你的年龄()
+#if result[2]["Error"] == None:
+    #print("你一开始选的数字是：\n{}\n你的年龄是：\n{}".format(result[0],result[1]))
+#else:
+    #print("错误")
 def squareRoot_positiveNumber(number):
     num_sqrt = number ** 0.5
     copiseded_number = ' %0.3f 的平方根为 %0.3f'%(number ,num_sqrt)
