@@ -19,7 +19,18 @@ def squareRoot_negativeNumber(number):
     copiseded_numbertimes = '{0} 的平方根为 {1:0.3f}+{2:0.3f}j'.format(number,
     num_sqrt.real,num_sqrt.imag)
     return copiseded_numbertimes
-
+def 四舍五入(n):
+    string = str(n)
+    array = list(string)
+    last = int(array[len(array)-1])
+    if last <= 4:
+        return string
+    else:
+        array[len(array)-1] = "0"
+        second = int(array[len(array)-2])
+        second += 1
+        array[len(array)-2] = str(second)
+        return "".join(array)
 def squareRoot_positiveNumber(number):
     num_sqrt = number ** 0.5
     copiseded_number = ' %0.3f 的平方根为 %0.3f'%(number ,num_sqrt)
