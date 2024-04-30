@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: MHCInc
-Version: 0.2.5
+Version: 0.2.6
 Summary: 改进漏洞：将使用模块功能时找不到文件优化
 Home-page: https://pypi.org/project/MHCInc/
 Author: Mhc-inc
@@ -20,9 +20,13 @@ Requires-Dist: pygame
 #Swift Apple
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Mhc-Inc/MHCInc)
+
 ![GitHub License](https://img.shields.io/github/license/Mhc-Inc/MHCInc)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mhc-Inc/MHCInc?include_prereleases)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Mhc-Inc/MHCInc.svg)
+
+![GitHub release](https://img.shields.io/github/v/release/Mhc-Inc/MHCInc?include_prereleases)
+
+![GitHub tag](https://img.shields.io/github/v/tag/Mhc-Inc/MHCInc.svg)
+
 update Swift-Module-Copiseded
 
 Installation

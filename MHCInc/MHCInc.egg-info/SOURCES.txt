@@ -1,5 +1,5 @@
 LICENSE
-README.rst
+README.md
 pyproject.toml
 setup.py
 MHCInc/MHCInc/GuessGame.py

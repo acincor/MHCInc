@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.rst", "r",encoding = "UTF-8") as fh:
+with open("README.md", "r",encoding = "UTF-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="MHCInc",
-    version="0.2.5",
+    version="0.2.6",
     author="Mhc-inc",
     author_email="Wf6350177@163.com",
     description="改进漏洞：将使用模块功能时找不到文件优化",
