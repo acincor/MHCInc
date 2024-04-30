@@ -4,9 +4,9 @@
 
 ![GitHub License](https://img.shields.io/github/license/Mhc-Inc/MHCInc)
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mhc-Inc/MHCInc?include_prereleases)
+![GitHub release](https://img.shields.io/github/v/release/Mhc-Inc/MHCInc?include_prereleases)
 
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Mhc-Inc/MHCInc.svg)
+![GitHub tag](https://img.shields.io/github/v/tag/Mhc-Inc/MHCInc.svg)
 
 update Swift-Module-Copiseded
 
