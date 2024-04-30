@@ -5,7 +5,7 @@ with open("README.md", "r",encoding = "UTF-8") as fh:
 
 setuptools.setup(
     name="MHCInc",
-    version="0.2.6",
+    version="0.2.7",
     author="Mhc-inc",
     author_email="Wf6350177@163.com",
     description="改进漏洞：将使用模块功能时找不到文件优化",

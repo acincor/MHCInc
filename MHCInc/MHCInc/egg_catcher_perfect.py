@@ -3,6 +3,7 @@ from random import randrange
 from tkinter import Canvas,Tk,messagebox,font,PhotoImage
 from pygame import mixer
 import time
+import os
 
 mixer.init()
 

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: MHCInc
-Version: 0.2.6
+Version: 0.2.7
 Summary: 改进漏洞：将使用模块功能时找不到文件优化
 Home-page: https://pypi.org/project/MHCInc/
 Author: Mhc-inc
