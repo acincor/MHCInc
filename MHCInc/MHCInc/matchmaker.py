@@ -4,7 +4,7 @@ from tkinter import Tk,Button,DISABLED,messagebox
 from pygame import mixer
 
 mixer.init()
-beep=mixer.Sound('MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac')
+beep=mixer.Sound(os.path.abspath('MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac'))
 beep.play()
 time.sleep(5)
 

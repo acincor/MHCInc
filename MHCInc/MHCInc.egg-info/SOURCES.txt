@@ -1,4 +1,4 @@
-LICENSE.txt
+LICENSE
 README.rst
 pyproject.toml
 setup.py
@@ -30,4 +30,5 @@ MHCInc/MHCInc/螺旋万花筒.py
 MHCInc/MHCInc.egg-info/PKG-INFO
 MHCInc/MHCInc.egg-info/SOURCES.txt
 MHCInc/MHCInc.egg-info/dependency_links.txt
+MHCInc/MHCInc.egg-info/requires.txt
 MHCInc/MHCInc.egg-info/top_level.txt

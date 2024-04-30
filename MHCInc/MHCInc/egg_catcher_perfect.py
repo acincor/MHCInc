@@ -5,7 +5,8 @@ from pygame import mixer
 import time
 
 mixer.init()
-beep=mixer.Sound('MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac')
+
+beep=mixer.Sound(os.path.abspath('MHCInc/200bpm%E6%AD%BB%E4%BA%A1%E4%B9%8B%E6%9B%B2 2.flac'))
 beep.play()
 time.sleep(5)
 
@@ -14,7 +15,7 @@ canvas_height=400
 
 root=Tk()
 root.title('PSYDUCK MADE GAMING')
-photo=PhotoImage(file='/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/MHCInc/8bq.png')
+photo=PhotoImage(file=os.path.abspath('MHCInc/8bq.png'))
 c=Canvas(root,width=canvas_width,height=canvas_height,background='deep sky blue')
 c.create_image(0,0,anchor='nw',image=photo)
 c.create_oval(-5,canvas_height-100,canvas_width+5,\
