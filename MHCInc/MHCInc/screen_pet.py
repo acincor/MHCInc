@@ -24,8 +24,10 @@ def toggle_eyes():
 
 def blink():
     toggle_eyes()
+    sad()
     root.after(250,toggle_eyes)
-    root.after(5000,blink)
+    root.after(250,sad)
+    root.after(3000,blink)
 
 def toggle_tongue():
     if not c.tongue_out:
@@ -56,7 +58,7 @@ def cheeky(event):
     return
 
 def show_happy(event):
-    if (20 <= event.x <=350) and (20 <= event.y <=350):
+    if (20 <= event.x <= 350) and (20 <= event.y <= 350):
         c.itemconfigure(cheek_left,state=NORMAL)
         c.itemconfigure(cheek_right,state=NORMAL)
         c.itemconfigure(mouth_happy,state=NORMAL)
@@ -69,7 +71,7 @@ def hide_happy(event):
         c.itemconfigure(cheek_left,state=HIDDEN)
         c.itemconfigure(cheek_right,state=HIDDEN)
         c.itemconfigure(mouth_happy,state=HIDDEN)
-        c.itemconfigure(mouth_normal,state=HIDDEN)
+        c.itemconfigure(mouth_normal,state=NORMAL)
         c.itemconfigure(mouth_sad,state=HIDDEN)
         return
 
@@ -111,8 +113,6 @@ tongue_tip=c.create_oval(170,285,230,300,outline='red',fill='red',state=HIDDEN)
 
 cheek_left=c.create_oval(70,180,120,230,outline='pink',fill='pink',state=HIDDEN)
 cheek_right=c.create_oval(280,180,330,230,outline='pink',fill='pink',state=HIDDEN)
-
-mouth_normal=c.create_line(170,250,200,272,230,250,smooth=1,width=2,state=NORMAL)
 
 
 c.pack()
