@@ -5,10 +5,10 @@ with open("README.md", "r",encoding = "UTF-8") as fh:
 
 setuptools.setup(
     name="MHCInc",
-    version="0.2.8",
+    version="0.3.0",
     author="Mhc-inc",
     author_email="Wf6350177@163.com",
-    description="改进漏洞：matchmaker更改了无法正常游玩的bug",
+    description="改进：seven ate nine. PHYSICAL_CONDITION_APPLET解决了os导入的问题",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://pypi.org/project/MHCInc/",

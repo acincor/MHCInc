@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: MHCInc
-Version: 0.2.8
-Summary: 改进漏洞：matchmaker更改了无法正常游玩的bug
+Version: 0.3.0
+Summary: 改进：seven ate nine. PHYSICAL_CONDITION_APPLET解决了os导入的问题
 Home-page: https://pypi.org/project/MHCInc/
 Author: Mhc-inc
 Author-email: Wf6350177@163.com

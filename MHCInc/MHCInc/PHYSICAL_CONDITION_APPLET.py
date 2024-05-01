@@ -2,6 +2,7 @@ import tkinter as tit
 from tkinter import simpledialog,messagebox,Canvas
 from pygame import mixer
 import time
+import os
 from os.path import join
 
 root = tit.Tk()
