@@ -16,13 +16,14 @@ def show_symbol(x,y):
     global pairs
     buttons[x,y]['text'] = button_symbols[x,y]
     buttons[x,y].update_idletasks()
-
+    print(first)
     if first:
         previousX = x
-        previousX = y
+        previousY = y
         first = False
         moves = moves+1
     elif previousX != x or previousY != y:
+        print(previousX,previousY,x,y)
         if buttons[previousX,previousY]['text'] != buttons[x,y]['text']:
             time.sleep(0.5)
             buttons[previousX,previousY]['text'] = ''

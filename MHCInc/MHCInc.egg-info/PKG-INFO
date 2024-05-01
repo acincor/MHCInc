@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: MHCInc
-Version: 0.2.7
-Summary: 改进漏洞：将使用模块功能时找不到文件优化
+Version: 0.2.8
+Summary: 改进漏洞：matchmaker更改了无法正常游玩的bug
 Home-page: https://pypi.org/project/MHCInc/
 Author: Mhc-inc
 Author-email: Wf6350177@163.com
