@@ -13,7 +13,7 @@ update Swift-Module-Copiseded
 Installation
 ---------------
 
-1.You can use [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/) to write your content.You can use:
+1.You can use [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/) to write your content down.You can use:
 
    ```shell```
 
@@ -22,7 +22,7 @@ Installation
   to update.
 
 
-2.And if you are frist use the module you can use:
+2.And if you are frist using the module, you can use:
 
   ```shell```
 
@@ -30,7 +30,7 @@ Installation
 
  to get it.
 
-3.And I add some new project[randomInt(),squareRoot(),squareOfANumber()],have a fun!
+3.And I added some new project[randomInt(),squareRoot(),squareOfANumber()],have a fun!
 
 12 Games
 ---------------
